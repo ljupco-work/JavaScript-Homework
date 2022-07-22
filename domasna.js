@@ -16,9 +16,7 @@ var x = 2;
 var y = 3;
 var z = x + y;
 
-symbol = theSymbolAfterUserClickedCalulatorButton();
-
-console.log(doMathOperation(symbol, 2, 3));
+console.log(doMathOperation("\\", 2, 3));
 
 function doMathOperation(operation, number1, number2) {
   switch (operation) {
@@ -34,3 +32,9 @@ function doMathOperation(operation, number1, number2) {
       break;
   }
 }
+
+function convertEuroToDenari(euroAmount) {
+  console.log(euroAmount * 61.5);
+}
+
+convertEuroToDenari(100);
