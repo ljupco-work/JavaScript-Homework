@@ -5,7 +5,7 @@
 // 2 zadaca
 
 var a = "Zdravo";
-var b = "Ljupco"
+var b = "Ljupco";
 
 console.log(a);
 console.log(b);
@@ -14,7 +14,23 @@ console.log(b);
 
 var x = 2;
 var y = 3;
-var z = x+y;
+var z = x + y;
 
-console.log(z);
+symbol = theSymbolAfterUserClickedCalulatorButton();
 
+console.log(doMathOperation(symbol, 2, 3));
+
+function doMathOperation(operation, number1, number2) {
+  switch (operation) {
+    case "-":
+      return number1 - number2;
+    case "+":
+      return number1 + number2;
+    case "*":
+      return number1 * number2;
+    case "/":
+      return number1 / number2;
+    default:
+      break;
+  }
+}
