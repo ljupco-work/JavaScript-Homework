@@ -51,3 +51,16 @@ var y = 4*6;
 var z = x + y;
 
 console.log(z);
+
+// zadaca 8
+
+var a = 1;
+var b = 2;
+var c = 3;
+var d = 4;
+
+var e = a + b + c + d;
+
+var f = e/4;
+
+console.log(f);
