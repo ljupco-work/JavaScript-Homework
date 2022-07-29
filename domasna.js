@@ -1,3 +1,10 @@
+// while example
+// var k = 0;
+// while (k < 100) {
+//   console.log(k);
+//   k++;
+// }
+
 // 1-va zadaca
 
 // 1) integer; 2) string 3) string 4) decimal 5) boolean 6) decimal 7) character 8) string 9) boolean 10) ?
@@ -66,14 +73,13 @@ function swapVarValues(nekojaAdresa) {
   return nekojaAdresa;
 }
 
-
 var solunska11 = {
-  imeNaCoek1: 'Ljupco',
-  imeNaCoek2: 'Goce',
+  imeNaCoek1: "Ljupco",
+  imeNaCoek2: "Goce",
 };
 
-var ime1 = 'Gocee';
-var ime2 = 'Ljupcoo';
+var ime1 = "Gocee";
+var ime2 = "Ljupcoo";
 
 console.log("a is: ", solunska11.imeNaCoek1);
 console.log("b is: ", solunska11.imeNaCoek2);
@@ -94,3 +100,39 @@ var e = a + b + c + d;
 var f = e / 4;
 
 console.log(f);
+
+//zadaca 9 (delenje so ostatok)
+var a = 15;
+var b = 4;
+
+var rezultatPriDelenjeSoOstatok = a % b;
+var rezultatPriDelenjeBezOstatok = a / b;
+console.log(rezultatPriDelenjeSoOstatok);
+console.log(rezultatPriDelenjeBezOstatok);
+
+// zadaca 10;
+
+var imeIPrezime = [
+  "Lj", // 0
+  "u", // 1
+  "p", // 2
+  "c", // 3
+  "o", // 4
+  "P", // 5
+  "e", // 6
+  "t", // 7
+  "k", // 8
+  "o", // 9
+  "v", // 10
+  "s", // 11
+  "k", // 12
+  "i", // 13
+];
+
+for (var i = 0; i <= imeIPrezime.length - 1; i++) {
+  console.log(imeIPrezime[i]);
+}
+
+for (var i = imeIPrezime.length-1; i >= 0; i=i-1) {
+  console.log(imeIPrezime[i]);
+}

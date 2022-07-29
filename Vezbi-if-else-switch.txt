@@ -1,0 +1,53 @@
+
+zadaca 1.)
+Napisete algoritam sto ke proveruva koj od vneseni 3 broevi e najgolem i ke go pecati vo konzola najgolemiot broj
+(tuka mozi da napisite psevdo kod ako neznajte kako so c# - odnosno so svoi zborovi da opisite, primer: var a = 1, var b = 2, var c = 3....i sega ako a e pogolemo od b togas ispecati a itn.... 
+vie treba da ja naprajte logikata)
+
+Zadaca 2.)
+So upotreba na switch statement da se odredi i ispecati koja otcena dobil ucenikot soodvetno:
+ 	1 - nedovolen 
+	2 - dovolen
+	3 - dobar
+	4 - mnogu dobar
+	5 - odlicen	
+
+zadaca 3.)
+Napisete algoritam sto spored osvoenite bodovi na eden student vo granica od 0 - 100 ke pecati soodvetna otcena spored slednite kriteriumi:
+0-20 - 1,
+21-40 -2,
+41-60 -3,
+61-80 -4,
+81-100 -5
+
+Zadaca 4.) 
+Da se napisi programa koja sto ke odreduva dali od dadeni agli na eden triagolnik mozi da se formira trijagolnik (ako se znae deka zbirot na aglite na eden triagolnik iznesuva 180 stepeni)
+
+
+Zadaca 5.)
+Da se odredi i ispecati vo koja sostojba e vodata spored dadena temperatura vo celziusovi stepeni (ako se znae dka vodata zamrznuva na 0  stepeni i isparuva na 100 stepeni)
+mozni se tri sostojbi tecna zamrznata i gasovita(parea), rezultatot da se ispecati vo sledniot format:
+	Test Input:
+		temperatureInCelsius = 25;
+	Output:
+		Temperature in kelvins = 298.15, the water is liquid.
+	
+	note: the output temperature is in kelvins.
+
+
+zadaca 6.) 
+Za vneseni koordinati na edna tocka da se odredi vo koj kvadrant se naoga.
+	Test Input:
+		x=1, y=1
+	Output:
+		The point is located in the first quadrant.
+
+zadaca 7.)
+So upotreba na switch statement da se napravi ednostaven kalkulator koj za dadeni dve vrednosti x i y i vo zavisnost od vnesen simbol od tastatura (+,-,*,/) 
+ke izvrsuva soodvetna matematicka operacija i ke go pecati rezultatot vo konzola.
+	Test Input:
+		x = 15, y = 16; 
+		Console.Readline()  = "+";
+
+	Output:
+		The sum of the numbers 15 and 16 is 31;

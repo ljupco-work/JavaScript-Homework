@@ -23,14 +23,61 @@ function sobiraDvaBroja(a, b) {
 // pa imame ; - tocka zapirka
 // na krajot imame inkrement/dekrement
 var nizaSoIminja = ["Ljupco", "Goce", "Presil", "Gordana"];
+var nizaSoBroevi = [1, 2, 3, 4, 5, 6, 7444, 0, -55, -1000];
+var nizaSoNiziOdBroevi = [
+  [1, 2, 3],
+  [-1, -3, -5],
+  [-1, -3, -5],
+];
+var nizaSoPrazniObjekti = [{}, {}, {}];
+var nizaSoNekakviObjekti = [
+  { firstName: "Goce", lastName: "Mitkovski" },
+  { firstName: "Ljuco", lastName: "Petkovski" },
+];
+nizaOdSeIzmesano = [
+  1,
+  "3232",
+  "kamd",
+  "h",
+  {},
+  { firstName: { fristFirstName: "Goce", secondFirstName: "James" } },
+  [],
+];
+
+var ovaEString = "AKJSDNKJASDNKJASNDASD";
+var ovaENizaOdKarakteri = [
+  "A",
+  "K",
+  "J",
+  "S",
+  "D",
+  "N",
+  "K",
+  "J",
+  "A",
+  "S",
+  "D",
+  "N",
+  "K",
+  "J",
+  "A",
+  "S",
+  "N",
+  "D",
+  "A",
+  "S",
+  "D",
+];
 //                  '   0   ','  1  ', '  2  ', '  3  '
 
-for (var i = nizaSoIminja.length - 1; i >= 0; i = i - 1) {
+for (var i = nizaSoIminja.length - 1; i >= 0; i = i - 7) {
   let imetoVoMomentotNaOvaaIteracija = nizaSoIminja[i];
   //   if (imetoVoMomentotNaOvaaIteracija[0] === "G") {
   console.log(imetoVoMomentotNaOvaaIteracija);
   //   }
 }
+
+
 // for pocni od posledniot element  - gledaj do prviot element - i namaluvaj za eden
 //OCE NAS ZA FOR -> OD KADE DO KADE I ZA KOLKU DA SE ZGOLEMUVA/NAMALUVA (i)???
 
@@ -70,3 +117,4 @@ var b = sobiraDvaBroja(8, 9);
 var c = a + b;
 
 // proveri dali zbirot na dva broja e paren;
+
