@@ -133,6 +133,18 @@ for (var i = 0; i <= imeIPrezime.length - 1; i++) {
   console.log(imeIPrezime[i]);
 }
 
-for (var i = imeIPrezime.length-1; i >= 0; i=i-1) {
+for (var i = imeIPrezime.length - 1; i >= 0; i = i - 1) {
   console.log(imeIPrezime[i]);
+}
+
+// Domasna cas 4 vezbi
+
+var broevi = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,];
+
+for (var i = 0; i <= broevi.lenght - 1; i++) {
+  console.log(broevi[i]);
+}
+
+for (var i = broevi.lenght - 1; i >= 0; i = i - 1) {
+  console.log(broevi[i]);
 }

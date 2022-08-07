@@ -6,11 +6,11 @@ vie treba da ja naprajte logikata)
 
 Zadaca 2.)
 So upotreba na switch statement da se odredi i ispecati koja otcena dobil ucenikot soodvetno:
- 	1 - nedovolen 
-	2 - dovolen
-	3 - dobar
-	4 - mnogu dobar
-	5 - odlicen	
+ 	1 - "nedovolen" 
+	2 - "dovolen"
+	3 - "dobar"
+	4 - "mnogu dobar"
+	5 - "odlicen"
 
 zadaca 3.)
 Napisete algoritam sto spored osvoenite bodovi na eden student vo granica od 0 - 100 ke pecati soodvetna otcena spored slednite kriteriumi:
